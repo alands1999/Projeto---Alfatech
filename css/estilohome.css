@@ -1,0 +1,268 @@
+/* topo */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ;
+    box-sizing: border-box;
+}
+.topo img {
+    width: 75px;
+    height: 75px;
+}
+.topo {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    min-height: 150px;
+}
+.topo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+.topo span p {
+    font-size: 16px;
+    color: #2f86d6;
+}
+.largura {
+    margin: auto;
+    width: 1024px;
+    position: relative;
+}
+.link {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+.link a {
+    font-size: 18px;
+    font-weight: bold;
+    color:#233032;
+    text-decoration: none;
+    padding: 0px 7px; 
+}
+.box-esquerda {
+    display: flex;
+    padding-top: 15px;
+}
+.box-esquerda span {
+    padding-left: 20px;
+}
+/* banner */
+.banner {
+    background-color: #2f86d6;
+    padding: 180px 0px;
+ 
+}
+.largura-banner {
+    width: 1024px;
+    display: flex;
+    margin: 0px auto;
+}
+.banner .texto {
+    width: 470px;
+    padding-top: 15%;
+    padding-right: 20px;
+}
+.texto p, .texto h2 {
+    padding: 10px 0px;
+    color: white;
+}
+.imagem-banner {
+    width: 50%;
+}
+.imagem-banner img {
+    width: 500px;
+}
+/* anuncio 1 e 2 */
+.anuncio1, .anuncio2 {
+    padding: 40px 0px;
+}
+.anuncio2 {
+    background-color: #2f86d6;
+}
+.anuncio1 {
+    background-color: #233032;
+}
+.anuncio1 span {
+    color: #fff;
+    width: 675px;
+}
+.anuncio2 span {
+    color: #fff;
+    width: 675px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.anuncio1 h2 {
+    font-size: 24px;
+}
+.anuncio1 p {
+    font-size: 16px;
+}
+.anuncio1 a {
+    font-size: 18px;
+    color: #fff;
+    background-color: #2f86d6;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 3px;
+}
+.anuncio2 a {
+    font-size: 18px;
+    color: #fff;
+    background-color: #233032;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 3px; 
+}
+.largura-anuncio {
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+}
+.link-anuncio{
+  width: 50%;  
+  padding-left: 250px;
+  padding-top: 15px;
+}
+/* informações */
+.informacoes {
+    width: 100%;
+    min-height: 600px;
+    padding: 100px 0px;
+}
+.informacoes img {
+    width: 100px;
+    height: 100px;
+}
+.largura-informacoes {
+    width: 1024px;
+    display: flex;
+    margin: 0px auto;
+}
+.informacoes h2 {
+    font-size: 30px;
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.largura-informacoes div {
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+}
+.largura-informacoes h3, .largura-informacoes p {
+    padding: 20px 0px;
+}
+/* planos */
+.planos {
+    padding: 100px 0px;
+}
+table {
+    width: 1024px;
+    border: 1px solid white;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px 20px #2f86d6;
+}
+table thead th {
+    padding: 30px;
+}
+table td {
+    padding: 20px;
+}
+table h2 {
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+table h2 span {
+    color: #2f86d6;
+}
+table h3{
+    font-size: 18px;
+    color: #000000;
+
+}
+table img {
+    width: 100px;
+    height: 100px;
+}
+.cinza {
+    font-size: 16px;
+    background-color: #f6f6f6;
+}
+table p{
+    font-size: 13px;
+    color: #a89f9f;
+}
+.branco {
+    font-size: 16px;
+    background-color: #f1f3f7; 
+}
+/* rodapé */
+.rodape {
+    width: 100%;
+    margin: 0px auto;
+    min-height: 600px;
+}
+.largura-rodape {
+    width: 1024px;
+    position: relative;
+    margin: 0px auto;
+    padding: 50px;
+}
+.rodape img {
+    width: 100px;
+    height: 100px;
+}
+.box-img {
+    display: flex;
+    margin: 0px 29%;
+    padding-bottom: 30px;
+}
+.box-img span {
+    padding: 10px 30px;
+}
+.box-img h2 {
+    font-size: 32px;
+    color:#000000;
+}
+.box-img p {
+    font-size: 16px;
+    color: #2f86d6;
+}
+.box-info {
+    margin: 0px 10%;
+    padding: 40px 0px;  
+    line-height: 40px;
+    text-align: center;
+}
+.box-info p {
+    font-weight: bold;
+    font-size: 16px;
+    color:#000000;
+}
+.fundo {
+    font-weight: bold;
+    position: absolute;
+    bottom: -20%;
+    right: 39%;
+    color: #000000;
+}
+.fundo span {
+    color:#2f86d6
+}
+
+
+
+
+
+
+
+
+
